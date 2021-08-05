@@ -1,6 +1,11 @@
+div.container1 {
+    width: 900px;
+    margin: 0px auto 0px auto;
+    background-color: rgb(157, 163, 161);
+}
+
 h1 {
     font-size: 80px;
-    font-;
 }
 
 h4 {
@@ -14,10 +19,10 @@ h1, h4 {
 }
 
 #title-box {
-    margin-left: auto;
-    margin-right: auto;
+    align: left;
+    margin: 0px auto 0px 40px;
     width: 540px;
-    background-color: rgba(0, 143, 255, 0.425);
+    background-color: rgb(119, 195, 255);
     border-radius: 0px 20px 106px 20px;;
 }
 
