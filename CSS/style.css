@@ -1,0 +1,15 @@
+span.blank {
+    display:inline;
+}
+
+div:hover span.blank {
+    display:none;
+}
+
+span._____ {
+    display:none;
+}
+
+div:hover span._____ {
+    display:inline;
+}
