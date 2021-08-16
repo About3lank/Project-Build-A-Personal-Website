@@ -7,7 +7,7 @@ div.container1 {
     margin: 0px auto 0px auto;
     background-color: rgb(228, 226, 226);
     padding: 0px 0px 140px 0px;
-    border-radius: 0px 62px 26px 26px;
+    border-radius: 0px 62px 0px 62px;
 }
 
 div.container2 {
@@ -33,7 +33,7 @@ h1, h4 {
     margin: 0px auto 0px 0px;
     /* width: 560px; */
     background-color: rgb(130, 201, 255);
-    border-radius: 0px 62px 0px 62px;;
+    border-radius: 0px 62px 0px 0px;;
 }
 
 #title-text {
@@ -45,7 +45,7 @@ h1, h4 {
 
 }
 
-
+/*
 
 span.blank {
     display:inline;
@@ -62,3 +62,5 @@ span._____ {
 div.blank-hover:hover span._____ {
     display:inline;
 }
+
+*/
