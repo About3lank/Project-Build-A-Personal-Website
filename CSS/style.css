@@ -45,7 +45,7 @@ p {
 button {
     color: white;
     background-color: steelblue;
-    padding: 8px 24px 8px 24px;
+    padding: 10px 24px 10px 24px;
     border-radius: 4px;
     border: none;
 }
