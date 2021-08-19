@@ -42,12 +42,20 @@ p {
     margin-top: 0px;
 }
 
+button {
+    color: white;
+    background-color: steelblue;
+    padding: 8px 24px 8px 24px;
+    border-radius: 4px;
+    border: none;
+}
+
 #title-box {
     align: left;
     margin: 0px auto 0px 0px;
     /* width: 560px; */
     background-color:steelblue;
-    border-radius: 0px 62px 0px 0px;;
+    border-radius: 0px 62px 0px 0px;
 }
 
 #title-text {
@@ -65,10 +73,11 @@ p {
 
 .table .column1 {
     width: 60px;
+    padding-left: 8px;
 }
 
-.table .copy-button {
-    padding-right: 18px;
+.table .column3 {
+    padding-right: 6px;
 }
 
 .table .align-right {
