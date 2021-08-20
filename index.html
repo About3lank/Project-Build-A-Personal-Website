@@ -8,7 +8,6 @@
   <body>
       <script src="script.js"></script>
       <div class="container1">
-
         <div id="title-box" onmouseover="changeText('title-text', '______')" onmouseout="changeText('title-text', 'Blank')">
             <div id="title-text">
               <h1>
@@ -20,26 +19,31 @@
         <div class="container2">
             <div class="example-info">
                 <h3>Example Header 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="container3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
                 <div id="favorite-games">
-                    <h2>Games I recommend:</h3>
-                        <ul id="games-list">
-                            <li>Rocket League</li>
-                            <li>Overwatch</li>
-                            <li>Grand Theft Auto V</li>
-                            <li>Fortnite</li>
-                            <li>Minecraft</li>
-                            <li>PlayerUnknown's Battlegrounds (PUBG)</li>
-                            <li>Among Us</li>
-                            <li>Apex Legends</li>
-                            <li>Rust</li>
-                            <li>Call of Duty: Warzone</li>
-                        </ul>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2>Games I Recommend</h3>
+                        <div class="container3">
+                            <p>Here are some popular games that you can play on PC:</p>
+                            <ul id="games-list">
+                                <li>Rocket League</li>
+                                <li>Overwatch</li>
+                                <li>Grand Theft Auto V</li>
+                                <li>Fortnite</li>
+                                <li>Minecraft</li>
+                                <li>PlayerUnknown's Battlegrounds (PUBG)</li>
+                                <li>Among Us</li>
+                                <li>Apex Legends</li>
+                                <li>Rust</li>
+                                <li>Call of Duty: Warzone</li>
+                            </ul>
+                        </div>
                 </div>
                 <div id="building-a-PC">
                     <h2>Building a Gaming PC</h2>
-                    <p>Half the fun of PC gaming is building your own custom rig! To do that you'll need the following components:</p>
+                    <div class="container3">
+                        <p>Half the fun of PC gaming is building your own custom rig! To do that you'll need the following components:</p>
                         <ul id="parts-list">
                             <li>Central processing unit (CPU)</li>
                             <li>Graphics processing unit (GPU)</li>
@@ -66,7 +70,14 @@
                         And for advice on how <em>NOT</em> to build a PC check out this video from
                         <a href="https://www.youtube.com/watch?v=M-2Scfj4FZk" target="_blank">The Verge</a>.
                         </p>
-                    <!-- <p>I built my PC in 2017 and it's been a work in progress ever since. </p> -->
+                    </div>
+                </div>
+            </div>
+            <div id="my-PC">
+                <h2>My Gaming PC</h2>
+                <p>I built my PC in 2017. Since then I've really enjoyed tweaking, modifying, and upgrading this system.</p>
+                <div id="virtual-pc">
+                    <img src="./resources/images/my_pc.jpg" id="pc-photo">
 
                 </div>
             </div>
@@ -85,7 +96,7 @@
                     <tr>
                         <td class="column1 align-right">
                             <a href="https://store.steampowered.com/" target="_blank">
-                                <img src="resources/logos/Steam_icon_logo.svg" title="Steam" alt="Steam" class="logo">
+                                <img src="resources/images/logos/Steam_icon_logo.svg" title="Steam" alt="Steam" class="logo">
                             </a>
                         </td>
                         <td>
@@ -98,7 +109,7 @@
                     <tr>
                         <td class="column1 align-right">
                             <a href="https://www.epicgames.com/" target="_blank">
-                                <img src="resources/logos/Epic_Games_logo_PNG3.png" title="Epic Games" alt="Epic Games" class="logo">
+                                <img src="resources/images/logos/Epic_Games_logo_PNG3.png" title="Epic Games" alt="Epic Games" class="logo">
                             </a>
                         </td>
                         <td>Jenna Talia</td>
@@ -109,7 +120,7 @@
                     <tr>
                         <td class="column1 align-right">
                             <a href="https://www.origin.com/" target="_blank">
-                                <img src="resources/logos/origin-4.svg" title="Origin" alt="Origin" class="logo">
+                                <img src="resources/images/logos/origin-4.svg" title="Origin" alt="Origin" class="logo">
                             </a>
                         </td>
                         <td>MozambiqueGuy</td>
@@ -120,7 +131,7 @@
                     <tr>
                         <td class="column1 align-right">
                             <a href="https://www.blizzard.com/" target="_blank">
-                                <img src="resources/logos/battlenetlogo.png" title="Battle.net" alt="Battle.net" class="logo">
+                                <img src="resources/images/logos/battlenetlogo.png" title="Battle.net" alt="Battle.net" class="logo">
                             </a>
                         </td>
                         <td>WreckedEm#11166</td>
@@ -131,7 +142,7 @@
                     <tr>
                         <td class="column1 align-right">
                             <a href="https://ubisoftconnect.com/" target="_blank">
-                                <img src="resources/logos/ubisoft_logo_icon_144779.png" title="Ubisoft Connect" alt="Ubisoft Connect" class="logo">
+                                <img src="resources/images/logos/ubisoft_logo_icon_144779.png" title="Ubisoft Connect" alt="Ubisoft Connect" class="logo">
                             </a>
                         </td>
                         <td>JennaTalia2</td>
@@ -142,7 +153,7 @@
                     <tr>
                         <td class="column1 align-right">
                             <a href="https://www.minecraft.net/" target="_blank">
-                                <img src="resources/logos/minecraft-1-logo-png-transparent.png" title="Minecraft Java Edition" alt="Minecraft Java Edition" class="logo">
+                                <img src="resources/images/logos/minecraft-1-logo-png-transparent.png" title="Minecraft Java Edition" alt="Minecraft Java Edition" class="logo">
                             </a>
                         </td>
                         <td>
@@ -155,7 +166,7 @@
                     <tr>
                         <td class="column1 align-right">
                             <a href="https://discord.com/" target="_blank">
-                                <img src="resources/logos/discord-2752210-2285027.png" title="Discord" alt="Discord" class="logo">
+                                <img src="resources/images/logos/discord-2752210-2285027.png" title="Discord" alt="Discord" class="logo">
                             </a>
                         </td>
                         <td>NOT_RICK#3305</td>
