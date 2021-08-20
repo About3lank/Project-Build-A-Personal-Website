@@ -71,6 +71,14 @@ button:hover {
     background-color: rgb(21, 108, 179);
 }
 
+area {
+    color: red;
+    background-color: red;
+    display: block;
+    opacity: 0;
+    position: absolute;
+}
+
 #title-box {
     align: left;
     margin: 0px auto 0px 0px;
@@ -87,8 +95,12 @@ button:hover {
 }
 
 #pc-photo {
-    width: 400px;
+    width: 700px;
     height: auto;
+    padding: 30px 90px 20px 20px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: black;
+    border: none;
 }
 
 .table .column1 {
@@ -97,7 +109,7 @@ button:hover {
 }
 
 .table .column3 {
-    padding-right: 6px;
+    padding-right: 8px;
 }
 
 .table .align-right {

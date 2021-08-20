@@ -77,8 +77,17 @@
                 <h2>My Gaming PC</h2>
                 <p>I built my PC in 2017. Since then I've really enjoyed tweaking, modifying, and upgrading this system.</p>
                 <div id="virtual-pc">
-                    <img src="./resources/images/my_pc.jpg" id="pc-photo">
-
+                    <img src="./resources/images/my_pc.jpg" id="pc-photo" alt="My PC" usemap="#parts-interactive">
+                    <map name="parts-interactive">
+                        <area shape="rect" coords="40, 398, 609, 530" title="GPU: Nvidia RTX 3070" alt="GPU" id="interactive-GPU">
+                        <area shape="rect" coords="178, 182, 236, 382" title="RAM: 32GB G.skill DDR4 (8x4) @ 3200MHz" alt="RAM" id="interactive-RAM-left">
+                        <area shape="rect" coords="425, 182, 480, 381" title="RAM: 32GB G.skill DDR4 (8x4) @ 3200MHz" alt="RAM" id="interactive-RAM-right">
+                        <area shape="rect" coords="247, 139, 419, 377" title="CPU: Intel i7 7820x @ 4.7GHz & Liquid Cooler AIO: NZXT Kraken x62" alt="CPU and AIO" id="interactive-CPU-AIO">
+                        <area shape="rect" coords="16, 605, 422, 850" title="PSU: Seasonic 750W" alt="PSU" id="interactive-PSU">
+                        <area shape="poly" coords="21, 377, 20, 48, 677, 83, 168, 138, 116, 378" title="Fans: Corsair HD120 (6x)" alt="Fans" id="interactive-fans-left">
+                        <area shape="rect" coords="621, 94, 720, 576" title="Liquid Cooler AIO: NZXT Kraken x62" alt="AIO" id="interactive-AIO">
+                        <area shape="poly" coords="721, 569, 724, 108, 785, 114, 775, 842, 622, 637" title="Fans: Corsair HD120 (6x)" alt="Fans"id="interactive-fans-right">
+                    </map>
                 </div>
             </div>
             <div class="play-together">
