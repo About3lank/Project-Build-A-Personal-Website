@@ -71,14 +71,6 @@ button:hover {
     background-color: rgb(21, 108, 179);
 }
 
-area {
-    color: red;
-    background-color: red;
-    display: block;
-    opacity: 0;
-    position: absolute;
-}
-
 #title-box {
     align: left;
     margin: 0px auto 0px 0px;
