@@ -7,21 +7,35 @@ function changeText(id, newText) {
 //Copy to Clipboard button functionality
 function copyToClipboard(textToCopy) {
     navigator.clipboard.writeText(textToCopy);
+
+    //Alert that text has been copied
     alert('Copied: "' + textToCopy + '"');
 };
 
-//Function to change multiple HTML text and image fields in component description text-box simultaneously
+//Change multiple HTML text and image fields in component description text-box simultaneously
 function changeComponent(component) {
+
+    //clear Hover instructions from text-box
+    var divIMG = document.getElementById('part-img')
+    divIMG.innerHTML = ""
+
     //search components object for component, store details in variables
     var name = components[component].name;
     var description1 = components[component].description1;
     var description2 = components[component].description2;
     var img_url = components[component].img_url;
 
+    //create element for component img
+    var img = document.createElement('img');
+    img.src = img_url;
+    img.id = "componentIMG";
+    //append element to part-img div
+    divIMG.appendChild(img);
+
     //execute changeText function for each detail
     changeText('part-name', name);
     changeText('part-description1', description1);
-    changeText('part-description1', description2);
+    changeText('part-description2', description2);
 
 
 }
@@ -38,8 +52,8 @@ const components = {
     GPU: {
         name: "NVIDIA GeForce RTX 3070 | Gigabyte AORUS",
         description1: "The Graphics Processing Unit (GPU) is a specialized processor designed to accelerate graphics rendering.",
-        description2: "The GeForce RTX 3070 is built on NVIDIA's RTX architecture and contains Ray Tracing and Tensor Cores. This particular model is manufactured by Gigabyte and has a useful display for monitoring tempurature under heavy load.",
-        img_url: "./resources/images/pc_components/i7_7820x.jpg"
+        description2: "The GeForce RTX 3070 is built on NVIDIA's RTX architecture. This particular model is manufactured by Gigabyte and has a useful display for monitoring on-board tempuratures.",
+        img_url: "./resources/images/pc_components/RTX_3070.jpg"
     },
     Motherboard: {
         name: "MSI X299 Gaming Pro Carbon AC",
@@ -55,20 +69,20 @@ const components = {
     },
     AIO: {
         name: "NZXT Kraken X52",
-        description1: "To dissipate heat from the CPU, a cooling solution makes contact with the CPU's integrated heat spreader (IHS). The complexity of that cooler can vary widely depending on the use case. Very demanding systems might make use of custom-built liquid coolant loops that transfer heat from components to a radiator via a pump.",
-        description2: "This PC makes use of an all-in-one (AIO) liquid cooler. This is a middle-ground solution that combines components of a liquid cooling loop into a more convenient, more affordable form factor.",
+        description1: "A cooling solution makes contact with the CPU's integrated heat spreader (IHS) to dissipate heat. The complexity coolers varies widely across use cases. Some systems make use of customized liquid coolant loops, transferring heat from components to a radiator via a pump.",
+        description2: "This PC has an all-in-one (AIO) liquid cooler. This middle-ground solution combines components of a liquid cooling loop into a convenient, more affordable form factor.",
         img_url: "./resources/images/pc_components/Kraken_x52.jpg"
     },
     PSU: {
         name: "Seasonic GX-750",
         description1: "The Power Supply Unit (PSU) converts high voltage alternating current (AC) from an outlet into direct current (DC), regulates that current, and distributes it to system components. Under heavy computing loads, a PC can consume a lot of power.",
-        description2: "This power supply is rated to supply up to 750 watts under 100% load.",
+        description2: "This power supply is rated to supply up to 750 watts to the system under 100% load.",
         img_url: "./resources/images/pc_components/Focus_750W.jpg"
     },
     Fans: {
-        name: "Corsair HD120",
-        description1: "Fans are distributed around the PC chassis to create air flow and cool down components by removing hot air. Some fans are oriented to intake cool air from the room and others exhaust hot air from the system.",
-        description2: "This PC uses eight 120mm case fans. The five fans on the right-hand side (two of which are not lit up like the others) intake air and the three fans on the top and left-hand side exhaust air.",
+        name: "Corsair HD120 Case Fans",
+        description1: "Fans cool down components by removing hot air. They're typically oriented to create directional air flow.",
+        description2: "This PC uses eight 120mm case fans. Fans on the right-hand side intake cool air while fans along the top and left-hand side exhaust hot air.",
         img_url: "./resources/images/pc_components/HD120.jpg"
     }
 }
