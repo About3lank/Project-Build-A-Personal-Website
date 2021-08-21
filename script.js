@@ -69,7 +69,7 @@ const components = {
     },
     AIO: {
         name: "Liquid Cooler AIO: NZXT Kraken X52",
-        description1: "A CPU Cooler makes contact with its integrated heat spreader (IHS) and dissipates heat. Their complexity varies across use cases. Some PCs feature custom-built liquid coolant loops offload heat to a radiator via a pump.",
+        description1: "A CPU Cooler makes contact with the processor's integrated heat spreader (IHS) and dissipates heat. Their complexity varies widely across use cases. Some use a simple single-fan design. Others offload heat to a radiator by pumping liquid coolant through a custom-built loop of tubing.",
         description2: "This PC has an all-in-one (AIO) liquid cooler. This middle-ground solution places components of a custom loop into a convenient, more affordable form factor.",
         img_url: "./resources/images/pc_components/Kraken_x52.jpg"
     },
