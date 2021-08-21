@@ -15,7 +15,7 @@ function copyToClipboard(textToCopy) {
 //Change multiple HTML text and image fields in component description text-box simultaneously
 function changeComponent(component) {
 
-    //clear Hover instructions from text-box
+    //clear default Hover instructions from text-box
     var divIMG = document.getElementById('part-img')
     divIMG.innerHTML = ""
 
