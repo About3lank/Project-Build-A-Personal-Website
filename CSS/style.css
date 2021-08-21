@@ -115,13 +115,47 @@ button:hover {
     justify-content: center;
 }
 
-#pc-photo {
-    width: 700px;
-    height: auto;
-    padding: 30px 90px 20px 20px;
-    border-radius: 0px 50px 50px 0px;
+#PC-interactive-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+
+}
+
+#virtual-PC {
+    width: 55%;
+    padding: 14px 8px 14px 14px;
+    border-radius: 0px 32px 32px 0px;
     background-color: black;
+}
+
+#pc-photo {
+    width: 90%;
+    height: auto;
     border: none;
+    /*display: flex;*/
+}
+
+.pc-foot {
+    height: 14px;
+    width: 10%;
+    background-color: black;
+}
+
+.pc-foot-gap {
+    height: 14px;
+    width: 30%;
+}
+
+#parts-textbox {
+    width: 38%;
+    height: 480px;
+    background-color: #A8A8A8;
+    margin: 12px 0px 0px 28px;
+    border-radius: 4px;
+    /*display: flex;*/
 }
 
 .nav-link {
@@ -139,7 +173,6 @@ button:hover {
 
 .grid-box {
     width: 32%;
-    flex-direction: column;
     display: flex;
     margin-bottom: 14px;
 }
