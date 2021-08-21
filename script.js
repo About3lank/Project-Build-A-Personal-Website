@@ -14,39 +14,39 @@ function copyToClipboard(textToCopy) {
 //store info about components as variable
 const components = {
     CPU: {
-        name: "",
+        name: "Intel i7 7820x",
         desctiption: "",
         img_url: "./resources/images/pc_components/i7_7820x.jpg"
     },
     GPU: {
-        name: "",
+        name: "NVIDIA GeForce RTX 3070 | Gigabyte AORUS",
         desctiption: "",
-        img_url: ""
+        img_url: "./resources/images/pc_components/i7_7820x.jpg"
     },
-    mobo: {
+    Motherboard: {
         name: "",
         desctiption: "",
-        img_url: ""
+        img_url: "./resources/images/pc_components/x299_mobo.jpg"
     },
     RAM: {
-        name: "",
+        name: "G.Skill TridentZ 32GB DDR4-3200",
         desctiption: "",
-        img_url: ""
+        img_url: "./resources/images/pc_components/TridentZ_ddr4.jpg"
     },
     AIO: {
-        name: "",
+        name: "NZXT Kraken X52",
         desctiption: "",
-        img_url: ""
+        img_url: "./resources/images/pc_components/Kraken_x52.jpg"
     },
     PSU: {
-        name: "",
+        name: "Seasonic GX-750",
         desctiption: "",
-        img_url: ""
+        img_url: "./resources/images/pc_components/Focus_750W.jpg"
     },
-    fans: {
-        name: "",
+    Fans: {
+        name: "Corsair HD120",
         desctiption: "",
-        img_url: ""
+        img_url: "./resources/images/pc_components/HD120.jpg"
     }
 }
 
