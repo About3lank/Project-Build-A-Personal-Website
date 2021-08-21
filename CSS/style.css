@@ -115,9 +115,13 @@ button:hover {
     border: none;
 }
 
-.nav-button {
-    color: rgba(255, 255, 255, 0.712);
+.nav-link {
+    color: rgba(255, 255, 255, 0.671);
     text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.863);
 }
 
 .strike-through {
@@ -138,6 +142,10 @@ button:hover {
 
 .game-image:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 6px rgba(0, 0, 0, 0.19);
+}
+
+.build-link:hover {
+    color:mediumturquoise;
 }
 
 .table .column1 {
