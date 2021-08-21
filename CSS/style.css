@@ -99,6 +99,27 @@ button:hover {
     text-decoration: line-through;
 }
 
+#games-grid {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-box {
+    width: 32%;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.game-image {
+    width: 90%;
+    margin: 0px auto 0px;
+}
+
+
 .table .column1 {
     width: 60px;
     padding-left: 8px;
