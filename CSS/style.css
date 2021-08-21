@@ -120,8 +120,8 @@ button:hover {
 }
 
 #parts-list {
-    padding-top: 8px;
-    padding-bottom: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #PC-interactive-container {
@@ -148,14 +148,15 @@ button:hover {
 }
 
 #parts-textbox {
-    width: 38%;
+    width: 35%;
     height: 480px;
     margin: 12px 0px 0px 28px;
+    padding: 12px;
     /*display: flex;*/
 }
 
 .text-box {
-    background-color: #A8A8A8;
+    background-color: #f7f7f7;
     border-radius: 4px;
 }
 
