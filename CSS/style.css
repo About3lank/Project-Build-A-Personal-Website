@@ -95,6 +95,10 @@ button:hover {
     border: none;
 }
 
+.strike-through {
+    text-decoration: line-through;
+}
+
 .table .column1 {
     width: 60px;
     padding-left: 8px;
