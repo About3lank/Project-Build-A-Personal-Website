@@ -7,39 +7,43 @@ body {
 div.container1 {
     width: 900px;
     margin: 0px auto 0px auto;
-    background-color:rgb(233, 233, 233);
+    background-color:rgb(236, 234, 234);
     padding: 0px 0px 140px 0px;
     border-radius: 0px 62px 0px 62px;
 }
 
+
 div.container2 {
     padding: 0px 42px 0px 42px;
     color: rgb(46, 46, 46);
+    overflow: auto;
 }
 
 div.container3 {
-    padding: 0px 30px 0px 30px;
+    padding: 0px 40px 0px 40x;
 }
 
 h1 {
     font-size: 70px;
-    color:whitesmoke;
+    color:rgb(245, 245, 245);
 }
 
 h2 {
+    margin-bottom: 10px;
     font-size: 34px;
     text-decoration: underline;
 }
 
 h3 {
     font-size: 28px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 h4 {
     font-size: 22px;
-    color:rgba(245, 245, 245, 0.705);
-    padding-left: 4px;
+    color:rgba(245, 245, 245, 0.897);
+    padding-left: 5px;
+    padding-bottom: 8px;
     font-weight:500;
 }
 
@@ -79,11 +83,27 @@ button:hover {
     border-radius: 0px 62px 0px 0px;
 }
 
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 90px 4px 90px;
+    background-color: black;
+}
+
 #title-text {
-    height: 150px;
+    height: 128px;
     display: table-cell;
     vertical-align: middle;
     padding-left: 28px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#games-grid {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #pc-photo {
@@ -95,16 +115,13 @@ button:hover {
     border: none;
 }
 
-.strike-through {
-    text-decoration: line-through;
+.nav-button {
+    color: rgba(255, 255, 255, 0.712);
+    text-decoration: none;
 }
 
-#games-grid {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+.strike-through {
+    text-decoration: line-through;
 }
 
 .grid-box {
