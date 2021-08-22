@@ -62,7 +62,7 @@ const components = {
         img_url: "./resources/images/pc_components/x299_mobo.jpg"
     },
     RAM: {
-        name: "RAM: G.Skill TridentZ 32GB DDR4-3200 (8x4)",
+        name: "RAM: G.Skill TridentZ 32GB DDR4-3200",
         description1: "Random Access Memory (RAM) is a computer's short-term memory storage. Data stored on RAM can be accessed almost instantly by applications and programs that are currently in use.",
         description2: "This PC contains 4 RAM modules and each offers the system 8 GB of memory, totaling 32 GB of available RAM.",
         img_url: "./resources/images/pc_components/TridentZ_ddr4.jpg"
